@@ -1,0 +1,1 @@
+include ':app', ':v4music', ':umeng', ':material-spinner-1.0.5', ':BaseRecyclerViewAdapterHelper', ':library', ':wheelview', ':testbutton', ':activityafinity', ':activityafinity2'

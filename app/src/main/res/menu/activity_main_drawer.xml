@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_broadcast"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="broadcast" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="message" />
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="service" />
+        <item
+            android:id="@+id/nav_fragment"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="fragment" />
+
+        <item
+            android:id="@+id/nav_splashes"
+            android:icon="@drawable/ic_menu_share"
+            android:title="splashes" />
+        <item
+            android:id="@+id/nav_intent"
+            android:icon="@drawable/ic_menu_send"
+            android:title="intent" />
+        <item
+            android:id="@+id/nav_Touch"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Touch" />
+        <item
+            android:id="@+id/nav_volley"
+            android:icon="@drawable/ic_menu_send"
+            android:title="testvolley" />
+        <item
+            android:id="@+id/nav_scrolltitle"
+            android:icon="@drawable/ic_menu_send"
+            android:title="testscrolltitle" />
+        <item
+            android:id="@+id/nav_recycleview"
+            android:icon="@drawable/ic_menu_send"
+            android:title="recycleview" />
+        <item
+            android:id="@+id/nav_querymedia"
+            android:icon="@drawable/ic_menu_send"
+            android:title="querymedia" />
+        <item
+            android:id="@+id/nav_tablayout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="tablayout" />
+        <item
+            android:id="@+id/nav_querymedia2"
+            android:icon="@drawable/ic_menu_send"
+            android:title="querymedia2" />
+        <item
+            android:id="@+id/nav_cardview"
+            android:icon="@drawable/ic_menu_send"
+            android:title="cardview" />
+        <item
+            android:id="@+id/nav_notify"
+            android:icon="@drawable/ic_menu_send"
+            android:title="notify" />
+        <item
+            android:id="@+id/nav_piceandcam"
+            android:icon="@drawable/ic_menu_send"
+            android:title="piceandcam" />
+        <item
+            android:id="@+id/nav_recycleviewd"
+            android:icon="@drawable/ic_menu_send"
+            android:title="recycleview" />
+        <item
+            android:id="@+id/nav_recycleviewe"
+            android:icon="@drawable/ic_menu_send"
+            android:title="recycleview" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+
+        </menu>
+    </item>
+
+</menu>

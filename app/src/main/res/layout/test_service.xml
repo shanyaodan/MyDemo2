@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/aidlbut"
+        android:text="aidlservice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+   <Button
+       android:id="@+id/unbindBut"
+       android:text="unbindService"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <Button
+       android:id="@+id/startBut"
+       android:text="startService"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/stopall"
+        android:text="stopall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

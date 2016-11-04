@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--comm color-->
+    <color name="dimgrey">#696969</color>
+    <color name="comm_bg">#F2F2F2</color>
+    <color name="comm_color">#E3393A</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="shouye">#00a5e0</color>
+    <color name="main_gray">#9A9A9A</color>
+    <color name="red">#f00</color>
+    <color name="base_color">#E3393A</color>
+    <color name="list_item_title">#67b5f7</color>
+    <color name="gray_bg">#d4d4d4</color>
+    <color name="grey">#808080</color>
+    <color name="transparent">#00000000</color>
+
+    <!--dialog-->
+    <color name="dialog_line">#d7d7d7</color>
+    <color name="setting_menu_item_click_color">#f5f5f5</color>
+
+    <!--base-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

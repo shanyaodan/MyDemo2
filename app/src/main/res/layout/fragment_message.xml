@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="0"
+            android:layout_width="wrap_content"
+            android:text="message"
+            android:layout_height="wrap_content" />
+
+   <EditText
+       android:layout_weight="1"
+       android:id="@+id/send_content"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+        </LinearLayout>
+
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<TextView
+    android:layout_weight="0"
+    android:text="phoneNumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/phoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <Button
+        android:id="@+id/sendButton"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:text="send message"
+        android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_weight="0"
+        android:text="phonenum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/interceptNum"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <Button
+        android:id="@+id/getGrant"
+        android:text="拦截此号码短信"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

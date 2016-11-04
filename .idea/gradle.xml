@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\java\androidstudio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BaseRecyclerViewAdapterHelper" />
+            <option value="$PROJECT_DIR$/activityafinity" />
+            <option value="$PROJECT_DIR$/activityafinity2" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/material-spinner-1.0.5" />
+            <option value="$PROJECT_DIR$/testbutton" />
+            <option value="$PROJECT_DIR$/umeng" />
+            <option value="$PROJECT_DIR$/v4music" />
+            <option value="$PROJECT_DIR$/wheelview" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

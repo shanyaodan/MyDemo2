@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\src\\main\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\src\\main\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\src\\main\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\src\\main\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "F:\\Users\\win7\\Desktop\\workspace\\MyDemo2\\umeng\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    }
+]

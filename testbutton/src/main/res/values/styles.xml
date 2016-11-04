@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BrandedSwitch" parent="AppTheme">
+        <!--滑动后的thumb颜色-->
+        <item name="colorAccent">#39ac39</item>
+        <!--控制条颜色滑动后-->
+        <item name="colorControlActivated">#39ac39</item>
+        <!--滑动钱的thumb颜色-->
+        <item name="colorSwitchThumbNormal">@color/colorAccent</item>
+        <!--控制条颜色滑动钱-->
+        <item name="android:colorForeground">@color/colorAccent</item>
+    </style>
+
+   <style name="Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch">
+
+   </style>
+</resources>

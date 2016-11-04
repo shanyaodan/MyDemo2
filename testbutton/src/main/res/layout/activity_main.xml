@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/testtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:lineSpacingExtra="50dp"
+            android:maxWidth="80dp"
+            android:scrollbars="vertical"
+            android:text="他们挖毕竟他们挖毕竟他们挖毕竟他们挖毕竟他们"
+            android:visibility="gone" />
+
+
+        <android.support.v7.widget.AppCompatSpinner
+
+            android:id="@+id/widgets_spinner_underlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.AppCompatSpinner>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switchCompat"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/BrandedSwitch" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeActionLabel="Taihaole"
+            android:imeOptions="actionSend"
+            android:inputType="text" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionPrevious"
+            android:inputType="text" />
+    </LinearLayout>

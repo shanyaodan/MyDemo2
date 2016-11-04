@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyDemo2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- commxlistView -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal"> 上拉查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <!-- comm -->
+    <string name="network_error">当前无网络，请检查网络连接</string>
+    <string name="isloading">正在加载...</string>
+
+    <!--dialog-->
+    <string name="dialog_ok" >确定</string>
+    <string name="dialog_cancel" >取消</string>
+
+
+
+
+
+   <string name="cardview_contents">This is a CardView widget. CardView widgets can have
+        shadows and rounded corners.
+        \n\nTo create a card with a shadow, use the <font fgcolor="#FFFFFFFF">android:elevation</font>
+        attribute.
+        \n\nTo set the corner radius in your layouts, use the <font
+           fgcolor="#FFFFFFFF">card_view:cardCornerRadius</font> attribute.
+    </string>
+
+</resources>
