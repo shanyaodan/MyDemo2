@@ -35,6 +35,19 @@ public abstract class BaseFragment extends Fragment {
 
     public abstract void setViews(View rootView);
 
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        System.out.println("onAttach");
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        System.out.println("onResume");
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -42,7 +55,7 @@ public abstract class BaseFragment extends Fragment {
 
         context = getActivity();
         if (null == rootView) {
-            rootView = (ViewGroup) inflater.inflate(getLayoutId(), null);
+            rootView = (ViewGroup) inflater.inflate(getLayoutId(), container,false);
             initViews(rootView);
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
@@ -52,21 +65,27 @@ public abstract class BaseFragment extends Fragment {
 //                        getStatusBarHeight(), 0, 0);
 //            }
         }
-
+        System.out.println("onCreateView");
+        System.out.println("rootViewrootView=："+(null == rootView));
         setViews(rootView);
         return rootView;
     }
 
+
+
     @Override
     public void onDestroyView() {
-        super.onDestroyView();
         if (rootView != null) {
             ViewGroup parentViewGroup = (ViewGroup) rootView.getParent();
             if (parentViewGroup != null) {
                 parentViewGroup.removeAllViews();
             }
+            rootView = null;
         }
+        super.onDestroyView();
     }
+
+
 
     public static BaseFragment getInstance(FragmentActivity context,
                                            String fragmentName) {

@@ -10,12 +10,14 @@ import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.dyc.test.App;
 import com.dyc.test.base.BaseEntity;
 import com.dyc.test.constants.Constant;
 import com.dyc.test.entity.Post;
 import com.dyc.test.entity.PostEntity;
 import com.dyc.test.tools.CommonUtils;
 import com.dyc.test.tools.L;
+import com.dyc.test.tools.NetWorkUtils;
 import com.dyc.test.tools.PreferencesUtils;
 import com.google.gson.reflect.TypeToken;
 
@@ -85,7 +87,7 @@ public class API {
         L.v(TAG, tag, url);
         L.v(TAG, tag, null == postData ? "null" : postData.toString());
 
-        if (!CommonUtils.checkNetState(true)) {
+        if (!NetWorkUtils.isNetworkAvailable(App.sContext,true)) {
             final Handler handler = msg.getTarget();
             Message message = new Message();
             message.what = REQUEST_NO_NETWORK;

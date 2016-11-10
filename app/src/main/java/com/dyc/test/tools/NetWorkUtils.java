@@ -4,10 +4,30 @@
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.telephony.TelephonyManager;
- 
-public class NetWorkUtils {
+ import android.widget.Toast;
+
+ public class NetWorkUtils {
 	private static final String TAG = "NetMode";
 	private static ConnectivityManager connManager;
+
+	public static boolean isNetworkAvailable(Context context,boolean b) {
+		ConnectivityManager connectivity = (ConnectivityManager) context
+				.getSystemService(Context.CONNECTIVITY_SERVICE);
+		if (connectivity != null) {
+			NetworkInfo info = connectivity.getActiveNetworkInfo();
+			if (info != null && info.isConnected())
+			{
+				// 当前网络是连接的
+				if (info.getState() == NetworkInfo.State.CONNECTED)
+				{
+					// 当前所连接的网络可用
+					return true;
+				}
+			}
+		}
+		Toast.makeText(context,"网络不可用",Toast.LENGTH_LONG).show();
+		return false;
+	}
 
 	public static String getNetworkType(Context mContext) {
 		if (checkWifiNetStatus(mContext)) {

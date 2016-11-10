@@ -19,6 +19,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
+import android.app.ActivityManager;
 import android.content.ComponentName;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -614,6 +615,30 @@ public class CommonUtils {
 			App.sContext.startActivity(resolveIntent);
 		}
 	}
+
+
+	/**
+	 * 判断app是否在前台
+	 *
+	 * @param context
+	 * @return
+	 */
+	public static boolean isAppOnForeground(Context context) {
+		// Returns a list of application processes that are running on the
+		// device
+		ActivityManager activityManager = (ActivityManager) context
+				.getSystemService(Context.ACTIVITY_SERVICE);
+		List<ActivityManager.RunningTaskInfo> tasks = activityManager.getRunningTasks(1);
+		if (!tasks.isEmpty()) {
+			ComponentName topActivity = tasks.get(0).topActivity;
+			if (topActivity.getPackageName().equals(context.getPackageName())) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+
 
 /**
  * 提取图片的颜色
