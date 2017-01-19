@@ -25,12 +25,13 @@ public class BlackFragment extends BaseFragment {
     }
 
     private void doPhotoPrint() {
-        PrintHelper photoPrinter = new PrintHelper(getActivity());
+                PrintHelper photoPrinter = new PrintHelper(getActivity());
         photoPrinter.setScaleMode(PrintHelper.SCALE_MODE_FIT);
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(),
                 R.drawable.ic_menu_send);
         photoPrinter.printBitmap("droids.jpg - test print", bitmap);
     }
+
     @Override
     public int getLayoutId() {
         return R.layout.fragment_black;

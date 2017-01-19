@@ -20,6 +20,9 @@ import com.dyc.test.tools.L;
  */
 public abstract class BaseFragment extends Fragment {
 
+
+
+
     private String TAG = "BaseFragment";
     protected View waitinglayout, errorlayout, backLayout;
 
@@ -47,6 +50,7 @@ public abstract class BaseFragment extends Fragment {
         super.onResume();
         System.out.println("onResume");
     }
+
 
     @Nullable
     @Override
@@ -242,4 +246,5 @@ public abstract class BaseFragment extends Fragment {
         L.v(TAG, "getStatusBarHeight", result);
         return result;
     }
+
 }
